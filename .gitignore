@@ -5,7 +5,7 @@
 .config/
 .localized
 
-# Archivos de usuario
+# Configuración de usuario
 .vscode/
 .zsh_history
 .zsh_sessions/
@@ -13,34 +13,37 @@
 .oh-my-zsh/
 .lesshst
 
-# Claves SSH y configuraciones
+# Claves SSH y configuraciones sensibles
 pegana
 pegana.pub
 
-# Directorios no relacionados
-../../../MODULO*/
-../../../EL BANDONEON*/
-../../../EETT */
-../../../LOS JARDINES*/
-../../../LOTEOS PUENTE ALTO*/
-../../../RESPALDO*/
-
-# Node.js y construcción
+# Node.js y dependencias
 node_modules/
+
+# Archivos de construcción
 dist/
 
 # Archivos temporales y de logs
 *.log
 *.tmp
-*.rtf
-*.docx
-*.zip
-*.mp4
-*.pdf
 
-# Archivos de despliegue y configuración
+# Archivos específicos del proyecto
 firebase-functions-api/
 primerLogoEGI.svg
+
+# Archivos de sistema operativo y temporales
+Thumbs.db
+ehthumbs.db
+*.swp
+*.lock
+*.bak
+*.idea
+*.sublime-workspace
+
+# Archivos de paquetes
+*.zip
+*.tar.gz
+*.rar
 
 # Otros directorios no relacionados
 Downloads/
