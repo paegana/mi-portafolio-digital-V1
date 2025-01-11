@@ -1,0 +1,51 @@
+# Archivos del sistema
+.DS_Store
+.Trash/
+.cache/
+.config/
+.localized
+
+# Archivos de usuario
+.vscode/
+.zsh_history
+.zsh_sessions/
+.zshrc
+.oh-my-zsh/
+.lesshst
+
+# Claves SSH y configuraciones
+pegana
+pegana.pub
+
+# Directorios no relacionados
+../../../MODULO*/
+../../../EL BANDONEON*/
+../../../EETT */
+../../../LOS JARDINES*/
+../../../LOTEOS PUENTE ALTO*/
+../../../RESPALDO*/
+
+# Node.js y construcción
+node_modules/
+dist/
+
+# Archivos temporales y de logs
+*.log
+*.tmp
+*.rtf
+*.docx
+*.zip
+*.mp4
+*.pdf
+
+# Archivos de despliegue y configuración
+firebase-functions-api/
+primerLogoEGI.svg
+
+# Otros directorios no relacionados
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
