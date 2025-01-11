@@ -1,0 +1,54 @@
+# Archivos del sistema
+.DS_Store
+.Trash/
+.cache/
+.config/
+.localized
+
+# Configuración de usuario
+.vscode/
+.zsh_history
+.zsh_sessions/
+.zshrc
+.oh-my-zsh/
+.lesshst
+
+# Claves SSH y configuraciones sensibles
+pegana
+pegana.pub
+
+# Node.js y dependencias
+node_modules/
+
+# Archivos de construcción
+dist/
+
+# Archivos temporales y de logs
+*.log
+*.tmp
+
+# Archivos específicos del proyecto
+firebase-functions-api/
+primerLogoEGI.svg
+
+# Archivos de sistema operativo y temporales
+Thumbs.db
+ehthumbs.db
+*.swp
+*.lock
+*.bak
+*.idea
+*.sublime-workspace
+
+# Archivos de paquetes
+*.zip
+*.tar.gz
+*.rar
+
+# Otros directorios no relacionados
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
